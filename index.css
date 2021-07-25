@@ -1,0 +1,53 @@
+
+ body {
+	
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+ img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.result {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+}
+button {
+    padding: 1rem;
+    margin: 1rem;
+    width: 22vw;
+    font-size: 20px;
+    background-color: #453838;
+    color: #ff9800;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+
+button{
+    width: 28vw;
+}
+}
+@media screen and (max-width: 400px) {
+
+    button{
+        width: 50vw;
+    }
+    }
+@media screen and (max-width: 280px) {
+
+    button{
+        width: 55vw;
+    }
+    }
